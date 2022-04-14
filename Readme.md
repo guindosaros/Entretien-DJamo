@@ -30,7 +30,13 @@
 
     2-b: the HTTP method used is the POST method
 
-    2-c
+    2-c:
+
+``` curl 
+    curl -X POST -H "Content-Type: application/json" \
+    -d '{"title": "Titre Test", "content": "Entretien à Djamo","authorId": 342,"isPublished": True}' \
+    http://api-server/posts
+```
 
 
 ### 3:
